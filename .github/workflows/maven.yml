@@ -30,6 +30,11 @@ jobs:
           cache: 'maven'
       - name: Check formatting
         if: ${{ matrix.java != 8 }} # Spotless does not support Java 8
-        run: mvn spotless:check
+        run: mvn -B spotless:check
       - name: Run tests
-        run: mvn test
+        run: mvn -B test
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v5
+        if: ${{ matrix.os == 'ubuntu-20.04' && matrix.java == 17 }}
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
