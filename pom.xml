@@ -169,7 +169,7 @@
             <importOrder />
 
             <licenseHeader>
-              <file>${project.basedir}/license-header.txt</file>
+              <file>${project.basedir}/header.txt</file>
             </licenseHeader>
           </java>
         </configuration>
