@@ -1,5 +1,5 @@
 /*
- * dk.brics.automaton
+ * io.github.michaelmior.automaton
  *
  * Copyright (c) 2001-2017 Anders Moeller
  * All rights reserved.
@@ -26,7 +26,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package dk.brics.automaton;
+package io.github.michaelmior.automaton;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -265,12 +265,12 @@ public final class StringUnionOperations {
   }
 
   /** Internal recursive traversal for conversion. */
-  private static dk.brics.automaton.State convert(
-      State s, IdentityHashMap<State, dk.brics.automaton.State> visited) {
-    dk.brics.automaton.State converted = visited.get(s);
+  private static io.github.michaelmior.automaton.State convert(
+      State s, IdentityHashMap<State, io.github.michaelmior.automaton.State> visited) {
+    io.github.michaelmior.automaton.State converted = visited.get(s);
     if (converted != null) return converted;
 
-    converted = new dk.brics.automaton.State();
+    converted = new io.github.michaelmior.automaton.State();
     converted.setAccept(s.is_final);
 
     visited.put(s, converted);
@@ -284,12 +284,12 @@ public final class StringUnionOperations {
   }
 
   /** Build a minimal, deterministic automaton from a sorted list of strings. */
-  public static dk.brics.automaton.State build(CharSequence[] input) {
+  public static io.github.michaelmior.automaton.State build(CharSequence[] input) {
     final StringUnionOperations builder = new StringUnionOperations();
 
     for (CharSequence chs : input) builder.add(chs);
 
-    return convert(builder.complete(), new IdentityHashMap<State, dk.brics.automaton.State>());
+    return convert(builder.complete(), new IdentityHashMap<State, io.github.michaelmior.automaton.State>());
   }
 
   /** Copy <code>current</code> into an internal buffer. */

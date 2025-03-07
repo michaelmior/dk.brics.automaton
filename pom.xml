@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>dk.brics</groupId>
+  <groupId>io.github.michaelmior</groupId>
   <artifactId>automaton</artifactId>
   <version>1.12-4</version>
   <packaging>jar</packaging>
 
-  <name>dk.brics.automaton</name>
+  <name>io.github.michaelmior.automaton</name>
   <description>
     This package contains a full DFA/NFA implementation with Unicode
     alphabet and support for all standard regular expression operations.
@@ -40,9 +40,9 @@
   </distributionManagement>
 
   <scm>
-    <connection>scm:git:git://github.com/cs-au-dk/dk.brics.automaton.git</connection>
-    <developerConnection>scm:git:ssh://github.com:cs-au-dk/dk.brics.automaton.git</developerConnection>
-    <url>https://github.com/cs-au-dk/dk.brics.automaton</url>
+    <connection>scm:git:git://github.com/cs-au-dk/io.github.michaelmior.automaton.git</connection>
+    <developerConnection>scm:git:ssh://github.com:cs-au-dk/io.github.michaelmior.automaton.git</developerConnection>
+    <url>https://github.com/cs-au-dk/io.github.michaelmior.automaton</url>
   </scm>
 
   <properties>
@@ -137,10 +137,10 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>dk.brics.automaton.Datatypes</mainClass>
+          <mainClass>io.github.michaelmior.automaton.Datatypes</mainClass>
           <systemProperties>
             <systemProperty>
-              <key>dk.brics.automaton.datatypes</key>
+              <key>io.github.michaelmior.automaton.datatypes</key>
               <value>build</value>
             </systemProperty>
           </systemProperties>
@@ -155,7 +155,7 @@
             <includes>
               <include>src/**/*.java</include>
               <include>test/java/**/*.java</include>
-              <include>src/dk/brics/automaton/Automaton.java</include>
+              <include>src/io.github.michaelmior/automaton/Automaton.java</include>
             </includes>
 
             <googleJavaFormat />

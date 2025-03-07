@@ -1,5 +1,5 @@
 /*
- * dk.brics.automaton
+ * io.github.michaelmior.automaton
  *
  * Copyright (c) 2001-2017 Anders Moeller
  * All rights reserved.
@@ -26,7 +26,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package dk.brics.automaton;
+package io.github.michaelmior.automaton;
 
 import java.io.BufferedReader;
 import java.io.FileOutputStream;
@@ -205,7 +205,7 @@ public final class Datatypes {
 
   /**
    * Invoke during compilation to pre-build automata. Automata are stored in the directory specified
-   * by the system property <code>dk.brics.automaton.datatypes</code>. (Default: <code>build</code>,
+   * by the system property <code>io.github.michaelmior.automaton.datatypes</code>. (Default: <code>build</code>,
    * relative to the current working directory.)
    */
   public static void main(String[] args) {
@@ -457,7 +457,7 @@ public final class Datatypes {
   }
 
   private static void store(String name, Automaton a) {
-    String dir = System.getProperty("dk.brics.automaton.datatypes");
+    String dir = System.getProperty("io.github.michaelmior.automaton.datatypes");
     if (dir == null) dir = "build";
     try {
       a.store((new FileOutputStream(dir + "/" + name + ".aut")));

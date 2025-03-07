@@ -1,5 +1,5 @@
 /*
- * dk.brics.automaton
+ * io.github.michaelmior.automaton
  *
  * Copyright (c) 2001-2017 Anders Moeller
  * All rights reserved.
@@ -26,7 +26,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package dk.brics.automaton;
+package io.github.michaelmior.automaton;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -149,7 +149,7 @@ public class Automaton implements Serializable, Cloneable {
   }
 
   boolean isDebug() {
-    if (is_debug == null) is_debug = System.getProperty("dk.brics.automaton.debug") != null;
+    if (is_debug == null) is_debug = System.getProperty("io.github.michaelmior.automaton.debug") != null;
     return is_debug;
   }
 

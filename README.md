@@ -1,5 +1,5 @@
-# dk.brics.automaton
-[![CI](https://github.com/michaelmior/dk.brics.automaton/actions/workflows/maven.yml/badge.svg)](https://github.com/michaelmior/dk.brics.automaton/actions/workflows/maven.yml)
+# io.github.michaelmior.automaton
+[![CI](https://github.com/michaelmior/io.github.michaelmior.automaton/actions/workflows/maven.yml/badge.svg)](https://github.com/michaelmior/io.github.michaelmior.automaton/actions/workflows/maven.yml)
 
 Copyright (C) 2001-2022 Anders Møller
 

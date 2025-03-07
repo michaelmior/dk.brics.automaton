@@ -1,5 +1,5 @@
 /*
- * dk.brics.automaton
+ * io.github.michaelmior.automaton
  *
  * Copyright (c) 2001-2017 Anders Moeller
  * All rights reserved.
@@ -26,9 +26,9 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package dk.brics.automaton;
+package io.github.michaelmior.automaton;
 
-import static dk.brics.automaton.RunAutomatonTest.NOT_MATCHED;
+import static io.github.michaelmior.automaton.RunAutomatonTest.NOT_MATCHED;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -50,7 +50,7 @@ final class MatchOnlyRunAutomatonTest {
   private final DatatypesAutomatonProvider automatonProvider =
       new DatatypesAutomatonProvider(true, true, true);
 
-  @MethodSource("dk.brics.automaton.RunAutomatonTest#runScenarios")
+  @MethodSource("io.github.michaelmior.automaton.RunAutomatonTest#runScenarios")
   @ParameterizedTest
   void matches_substring_as_expected(
       final int posStart, final int posEnd, final RegExp regex, final String input) {

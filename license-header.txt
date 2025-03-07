@@ -1,5 +1,5 @@
 /*
- * dk.brics.automaton
+ * io.github.michaelmior.automaton
  *
  * Copyright (c) 2001-2017 Anders Moeller
  * All rights reserved.
