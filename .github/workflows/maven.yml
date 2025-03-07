@@ -18,7 +18,7 @@ jobs:
         # test against latest update of each LTS Java version:
         java: [ 8, 11, 17 ]
         # test against major operating systems
-        os: [ubuntu-20.04, windows-latest, macos-latest]
+        os: [ubuntu-latest, windows-latest, macos-latest]
     name: Java ${{ matrix.java }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
@@ -35,6 +35,6 @@ jobs:
         run: mvn -B test
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v5
-        if: ${{ matrix.os == 'ubuntu-20.04' && matrix.java == 17 }}
+        if: ${{ matrix.os == 'ubuntu-latest' && matrix.java == 17 }}
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
