@@ -1,7 +1,8 @@
 /*
  * io.github.michaelmior.automaton
  *
- * Copyright (c) 2001-2017 Anders Moeller
+ * Copyright (c) 2001-2017 Anders Moeller,
+                 2025 Michael Mior
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -149,7 +150,8 @@ public class Automaton implements Serializable, Cloneable {
   }
 
   boolean isDebug() {
-    if (is_debug == null) is_debug = System.getProperty("io.github.michaelmior.automaton.debug") != null;
+    if (is_debug == null)
+      is_debug = System.getProperty("io.github.michaelmior.automaton.debug") != null;
     return is_debug;
   }
 

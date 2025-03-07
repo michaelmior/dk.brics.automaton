@@ -1,7 +1,8 @@
 /*
  * io.github.michaelmior.automaton
  *
- * Copyright (c) 2001-2017 Anders Moeller
+ * Copyright (c) 2001-2017 Anders Moeller,
+                 2025 Michael Mior
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -205,8 +206,8 @@ public final class Datatypes {
 
   /**
    * Invoke during compilation to pre-build automata. Automata are stored in the directory specified
-   * by the system property <code>io.github.michaelmior.automaton.datatypes</code>. (Default: <code>build</code>,
-   * relative to the current working directory.)
+   * by the system property <code>io.github.michaelmior.automaton.datatypes</code>. (Default: <code>
+   * build</code>, relative to the current working directory.)
    */
   public static void main(String[] args) {
     long t = System.currentTimeMillis();

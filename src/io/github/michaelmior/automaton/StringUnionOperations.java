@@ -1,7 +1,8 @@
 /*
  * io.github.michaelmior.automaton
  *
- * Copyright (c) 2001-2017 Anders Moeller
+ * Copyright (c) 2001-2017 Anders Moeller,
+                 2025 Michael Mior
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -289,7 +290,8 @@ public final class StringUnionOperations {
 
     for (CharSequence chs : input) builder.add(chs);
 
-    return convert(builder.complete(), new IdentityHashMap<State, io.github.michaelmior.automaton.State>());
+    return convert(
+        builder.complete(), new IdentityHashMap<State, io.github.michaelmior.automaton.State>());
   }
 
   /** Copy <code>current</code> into an internal buffer. */
