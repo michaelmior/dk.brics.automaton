@@ -1,6 +1,4 @@
-Modified BSD License
-====================
-
+# Modified BSD License (BSD-3-Clause)
 _Copyright © 2001-2022 Anders Moeller, 2025 Michael Mior
 _All rights reserved._
 
