@@ -283,8 +283,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - tableized run method in `RunAutomaton`
 
-[Unreleased]: https://github.com/michaelmior/dk.brics.automaton/compare/v1.12-4...HEAD
-[1.12-4]: https://github.com/michaelmior/dk.brics.automaton/compare/v1.12-3...v1.12-4
-[1.12-3]: https://github.com/michaelmior/dk.brics.automaton/compare/v1.12-2...v1.12-3
-[1.12-2]: https://github.com/michaelmior/dk.brics.automaton/compare/v1.12-1...v1.12-2
-[1.12-1]: https://github.com/michaelmior/dk.brics.automaton/releases/tag/v1.12-1
+[Unreleased]: https://github.com/michaelmior/automaton/compare/v1.12-4...HEAD
+[1.12-4]: https://github.com/michaelmior/automaton/compare/v1.12-3...v1.12-4
+[1.12-3]: https://github.com/michaelmior/automaton/compare/v1.12-2...v1.12-3
+[1.12-2]: https://github.com/michaelmior/automaton/compare/v1.12-1...v1.12-2
+[1.12-1]: https://github.com/michaelmior/automaton/releases/tag/v1.12-1

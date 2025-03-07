@@ -13,7 +13,7 @@
     This package contains a full DFA/NFA implementation with Unicode
     alphabet and support for all standard regular expression operations.
   </description>
-  <url>http://www.brics.dk/automaton</url>
+  <url>https://github.com/michaelmior/automaton</url>
 
   <licenses>
     <license>
@@ -30,6 +30,13 @@
       <url>https://cs.au.dk/~amoeller</url>
       <organization>Aarhus University</organization>
     </developer>
+    <developer>
+      <id>michaelmior</id>
+      <name>Michael Mior</name>
+      <email>michael.mior@gmail.com</email>
+      <url>https://michael.mior.ca</url>
+      <organization>Rochester Institute of Technology</organization>
+    </developer>
   </developers>
 
   <distributionManagement>
@@ -40,9 +47,9 @@
   </distributionManagement>
 
   <scm>
-    <connection>scm:git:git://github.com/cs-au-dk/io.github.michaelmior.automaton.git</connection>
-    <developerConnection>scm:git:ssh://github.com:cs-au-dk/io.github.michaelmior.automaton.git</developerConnection>
-    <url>https://github.com/cs-au-dk/io.github.michaelmior.automaton</url>
+    <connection>scm:git:git://github.com/michaelmior/automaton.git</connection>
+    <developerConnection>scm:git:ssh://github.com:michaelmior/automaton.git</developerConnection>
+    <url>https://github.com/michaelmior/automaton</url>
   </scm>
 
   <properties>
