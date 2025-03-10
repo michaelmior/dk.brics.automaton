@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.13] 2025-03-10
 ### Changed
 - Move package coordinates
 
@@ -285,7 +287,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - tableized run method in `RunAutomaton`
 
-[Unreleased]: https://github.com/michaelmior/automaton/compare/v1.12-4...HEAD
+[Unreleased]: https://github.com/michaelmior/automaton/compare/v1.13...HEAD
+[1.13]: https://github.com/michaelmior/automaton/compare/v1.12-4...v1.13
 [1.12-4]: https://github.com/michaelmior/automaton/compare/v1.12-3...v1.12-4
 [1.12-3]: https://github.com/michaelmior/automaton/compare/v1.12-2...v1.12-3
 [1.12-2]: https://github.com/michaelmior/automaton/compare/v1.12-1...v1.12-2

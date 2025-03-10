@@ -5,7 +5,7 @@
 
   <groupId>io.github.michaelmior</groupId>
   <artifactId>automaton</artifactId>
-  <version>1.13</version>
+  <version>1.14-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>io.github.michaelmior.automaton</name>
